@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+nav{
+    width: 100%;
+    height: max-content;
+    background-color: black; 
+    overflow: hidden; 
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.ul1{
+    display: flex;
+    text-align: center;
+   
+   
+}
+.ul1 li a{
+    padding: 10px;
+    color: white;
+    font-size: 20px; 
+    text-decoration: none;
+    
+   
+}
+.ul1 li a:hover{
+    background-color: rgb(250, 234, 13);
+    color: black;  
+}
+.img1{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/dqwsepgzc/image/upload/v1722684828/music1_xzifx4.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10%;
+}
+.img1 h1,h2,h3{
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    margin: 10px 20%; 
+}
+.seconddiv{
+    background-color: #252529;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.seconddiv span{
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.m45{
+    font-size: 30px;
+    color: white;
+}
+.seconddiv p{
+    color: white;
+}
+.seconddiv button{
+    background-color: red;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.seconddiv button:hover{
+    background-color: blue;
+    color: white;
+    transition: all 2s;
+}
+.thirddiv{
+    width: 100%;
+    height: max-content;
+    background-color: #F4F4F4;
+    padding: 5% 10%;
+    text-align: center;
+}
+.thirddiv button{
+    background-color: blue;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.fourdiv img{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://res.cloudinary.com/dqwsepgzc/image/upload/v1722686970/Screenshot_211_bduz3u.png")
+}
